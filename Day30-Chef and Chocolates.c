@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int maint(){
+int main(){
 
     int X,Y,C;
 
@@ -15,7 +15,7 @@ int maint(){
 
     int totalchoco=C-X;
 
-    printf("The minimum money Chef need to spend is:%d",totalchoco*Y);
+    printf("The minimum money Chef need to spend is:%dRs",totalchoco*Y);
 
     return 0;
 }
